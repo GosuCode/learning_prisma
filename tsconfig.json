@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "skipLibCheck": true,
+    "sourceMap": true,
     "strict": true,
-    "rootDir": "src",
-    "noEmit": true
-  },
-  "include": ["src/**/*"]
+    "outDir": "dis",
+    "lib": ["ESNext"],
+    "esModuleInterop": true
+  }
 }
